@@ -41,3 +41,35 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* 调整导航栏对齐方式，使其起始位置与正文对齐 */
+@media (min-width: 64em) { /* 仅在桌面端生效，避免破坏移动端布局 */
+  .masthead__menu {
+    padding-left: 190px; /* 这个数值决定了 Home 距离左边的位置 */
+    /* 如果您的侧边栏较宽，可以尝试将数值调大至 230px 或 240px */
+  }
+}
+
+/* 进一步优化：如果您希望导航项之间的间距更紧凑，可以添加以下代码 */
+.masthead__menu-item {
+  margin-right: 2rem; /* 调整各项（Home, Grants, etc.）之间的距离 */
+}
+
+/* 强制侧边栏图标垂直对齐 */
+.author-profile__links {
+  li {
+    white-space: nowrap; /* 防止邮箱过长换行 */
+  }
+  
+  i.fas, i.fab, i.far {
+    width: 20px;       /* 强制图标占据固定宽度 */
+    text-align: center; /* 图标在固定宽度内居中 */
+    margin-right: 5px;  /* 统一图标与文字的距离 */
+  }
+}
+
+/* 针对有链接和没链接的项进行间距微调 */
+.author-profile__links li > a {
+  display: inline-flex;
+  align-items: center;
+}

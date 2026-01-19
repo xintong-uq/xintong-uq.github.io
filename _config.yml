@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : ""
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Ling Guo"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://xintong-uq.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -24,7 +24,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Ling Guo"
+  name             : "Ling Guo (郭玲)"
   pronouns         : # example: "she/her"  
   bio              : ""
   location         : "Shanghai, China"
@@ -38,7 +38,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=Ys5ZVhEAAAAJ&view_op=list_works&sortby=pubdate"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  # orcid            : "https://orcid.org/yourorcidurl"
   semantic         : # URL
   ssrn             : # URL
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -227,10 +227,10 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  grants:
     output: true
     permalink: /:collection/:path/
-  talks:
+  conferences:
     output: true
     permalink: /:collection/:path/
 
@@ -273,10 +273,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _grants
   - scope:
       path: ""
-      type: portfolio
+      type: grants
     values:
       layout: single
       author_profile: true
@@ -285,9 +285,9 @@ defaults:
   # _talks
   - scope:
       path: ""
-      type: talks
+      type: conferences
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
 
