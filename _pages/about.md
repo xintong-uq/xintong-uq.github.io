@@ -13,8 +13,9 @@ Dr. Ling Guo is a professor and doctoral supervisor in the Department of Mathema
 Research Interests
 ======
 * **Uncertainty Quantification**
-* **Probabilistic Scientific Computing**
-* **Deep Learning**
+* **Machine Learning**
+* **Stochastic Modeling**
+* **Numerical Analysis**
 
 Editorial Board
 ======
