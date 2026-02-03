@@ -11,6 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
+---
 ## Preprints
 
 [1] Lei Ma, Ling Guo, Hao Wu, Tao Zhou, Deep set based operator learning with uncertainty quantification, [https://arxiv.org/abs/2509.25646](https://arxiv.org/abs/2509.25646), 2025.
@@ -25,7 +26,7 @@ author_profile: true
 
 [6] Zhicheng Zhang, Ling Guo, Hao Wu, Optimal low-dimensional approximation of transfer operators via flow matching: Computation and error analysis, [https://arxiv.org/abs/2408.15981](https://arxiv.org/abs/2408.15981), 2024.
 
-
+---
 ## Published
 
 [1] Xintong Wang, Xiaofei Guan, Ling Guo, Hao Wu, [Flow-based Bayesian filtering for high-dimensional nonlinear stochastic dynamical systems](https://doi.org/10.1016/j.cma.2025.118285), *Computer Methods in Applied Mechanics and Engineering* 446 (2025) 118285.
