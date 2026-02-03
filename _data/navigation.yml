@@ -35,11 +35,13 @@
 main:
   - title: "Home"
     url: /
-  - title: "Grants"
-    url: /grants/  # 链接到首页的科研项目锚点
-  - title: "Publications"
+  # - title: "Grants"
+  #   url: /grants/  # 链接到首页的科研项目锚点
+  - title: "Group"
+    url: /group/  # 链接到首页的科研项目锚点
+  - title: "Publication"
     url: /publications/
-  - title: "Conferences"
-    url: /conferences/
+  # - title: "Conferences"
+  #   url: /conferences/
   # - title: "Teaching"
   #   url: /teaching/

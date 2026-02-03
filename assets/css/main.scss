@@ -45,7 +45,7 @@
 /* 调整导航栏对齐方式，使其起始位置与正文对齐 */
 @media (min-width: 64em) { /* 仅在桌面端生效，避免破坏移动端布局 */
   .masthead__menu {
-    padding-left: 190px; /* 这个数值决定了 Home 距离左边的位置 */
+    padding-left: 260px; /* 这个数值决定了 Home 距离左边的位置 */
     /* 如果您的侧边栏较宽，可以尝试将数值调大至 230px 或 240px */
   }
 }
@@ -72,4 +72,44 @@
 .author-profile__links li > a {
   display: inline-flex;
   align-items: center;
+}
+
+html {
+  font-size: 23px !important; /* 强制将全站基准字体设为 18px */
+}
+
+body {
+  line-height: 1.6; /* 建议同步增加行间距，阅读体验更好 */
+}
+
+// /* 2. 在大屏幕下重新分配左右宽度比例 */
+// @media (min-width: 64em) {
+//   /* 调整左侧边栏宽度 */
+//   .sidebar {
+//     width: 20% !important; /* 适当缩小侧边栏比例，原默认通常接近25-30% */
+//   }
+
+//   /* 调整右侧主内容区宽度 */
+//   .page .archive{
+//     width: 60% !important; /* 相应增大主内容区比例 */
+//     padding-right: 40px !important; /* 稍微增加一点右侧内边距，防止贴边 */
+//   }
+// }
+
+/* 确保全站容器宽度一致 */
+.wrapper {
+  max-width: 1450px !important; 
+}
+
+@media (min-width: 64em) {
+  /* 同时调整单页和列表页的侧边栏 */
+  .sidebar {
+    width: 22% !important;
+  }
+
+  /* 同时调整单页内容区和列表内容区 */
+  .page, .archive {
+    width: 76% !important;
+    padding-right: 40px !important;
+  }
 }

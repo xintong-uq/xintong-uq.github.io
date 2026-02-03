@@ -19,11 +19,17 @@ Research Interests
 
 Editorial Board
 ======
-* **Associate Editor (2026-Present)**, [SIAM Journal on Scientific Computing](https://www.siam.org/publications/siam-journals/siam-journal-on-scientific-computing/)
+* **Associate Editor (2026-Present)**, 
 
-* **Associate Editor (2015-Present)**, [International Journal for Uncertainty Quantification](https://www.begellhouse.com/journals/uncertainty-quantification.html?srsltid=AfmBOopwYtN04T3j7TP0xsXVtZluHqmY9yxTX2-_BiOdkgcKlh0bFoWW)
+&nbsp;&nbsp;&nbsp;[SIAM Journal on Scientific Computing](https://www.siam.org/publications/siam-journals/siam-journal-on-scientific-computing/)
 
-* **Associate Editor (2025-Present)**, [Communications in Mathematical Sciences](http://intlpress.com/site/pub/pages/journals/items/cms/_home/_main/)
+* **Associate Editor (2015-Present)**, 
+
+&nbsp;&nbsp;&nbsp;[International Journal for Uncertainty Quantification](https://www.begellhouse.com/journals/uncertainty-quantification.html?srsltid=AfmBOopwYtN04T3j7TP0xsXVtZluHqmY9yxTX2-_BiOdkgcKlh0bFoWW)
+
+* **Associate Editor (2025-Present)**, 
+
+&nbsp;&nbsp;&nbsp;[Communications in Mathematical Sciences](http://intlpress.com/site/pub/pages/journals/items/cms/_home/_main/)
 
 
 
