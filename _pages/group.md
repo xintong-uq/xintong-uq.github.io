@@ -15,6 +15,7 @@ author_profile: true
 ## Current Students
 
 ### Ph.D. Students
+Lei Ma (2020-2026), ...
 <!-- | Year | Name | Research Topic |
 | :--- | :--- | :--- |
 | 2024 | Student A | Uncertainty Quantification |
