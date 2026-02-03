@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 ## Group Leader
-**Ling Guo**, &nbsp;Professor & Doctoral Supervisor
+Ling Guo, &nbsp;Professor & Doctoral Supervisor
 
 ---
 
